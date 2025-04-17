@@ -23,7 +23,7 @@ class RoleMiddleware
         }
 
         if (Auth::user()->role !== $role) {
-            abort(403, 'Akses tidak diizinkan. Anda tidak memiliki role ' . $role . '.');
+            abort(403, 'Akses tidak memiliki ijin. Anda tidak memiliki role ' . $role . '.');
         }
 
         return $next($request);
