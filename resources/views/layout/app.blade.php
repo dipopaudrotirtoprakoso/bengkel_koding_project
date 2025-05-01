@@ -12,7 +12,7 @@
         /* Header styling */
         .main-header {
             background-color: #5d93f7 !important;
-            border-bottom: 1px solid #88d8b0;
+            border-bottom: 1px solid #001366;
             margin-left: 300px !important;
         }
 
@@ -84,7 +84,7 @@
 
         /* Highlight active menu item */
         .sidebar .nav-pills .nav-link.active {
-            background-color: #4caf50 !important;
+            background-color: #4c4faf !important;
             color: #fff !important;
             font-weight: 500 !important;
         }
@@ -210,7 +210,7 @@
                         <li class="nav-item">
                             <a href="{{ route('pasien.periksa.create') }}" class="nav-link {{ Route::is('pasien.periksa.create') ? 'active' : '' }}">
                                 <i class="nav-icon fas fa-calendar-check"></i>
-                                <p>Buat Janji</p>
+                                <p>Periksa</p>
                             </a>
                         </li>
                     @endif
